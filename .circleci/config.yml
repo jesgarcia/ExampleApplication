@@ -10,7 +10,7 @@ workflows:
            only:
             - main
             requires:
-              -build
+              - build
 
 jobs:
   build:
